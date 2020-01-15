@@ -15,3 +15,16 @@ function solution(str){
   return reverse.join("");
 }
 ```
+[Is it a palindrome?](https://www.codewars.com/kata/57a1fd2ce298a731b20006a4)
+```javascript
+function isPalindrome(x) {
+let s = x.split('').reverse().join("").toLowerCase();
+return s == x.toLowerCase();
+
+//   let s = "";
+//   for(let i = x.length -1; i>=0; i--){
+//   s += x[i];
+//   }
+//   return s.toLowerCase() == x.toLowerCase();
+}
+```
