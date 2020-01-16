@@ -28,3 +28,9 @@ return s == x.toLowerCase();
 //   return s.toLowerCase() == x.toLowerCase();
 }
 ```
+[The Wide-Mouthed frog!](https://www.codewars.com/kata/57ec8bd8f670e9a47a000f89/train/javascript)
+```javascript
+function mouthSize(animal) {
+  return animal.toLowerCase() == 'alligator' ? 'small' : 'wide';
+}
+```
