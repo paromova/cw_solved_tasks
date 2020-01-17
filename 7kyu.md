@@ -1,0 +1,11 @@
+
+[Tail Swap](https://www.codewars.com/kata/5868812b15f0057e05000001)
+```javascript
+function tailSwap(arr) {
+      const arr2 = arr.map(el => el.split(":"));
+      const arr3 = arr2[0].concat(arr2[1]);
+      const x = arr3[0] + ":" + arr3[3]
+      const y = arr3[2] + ":" + arr3[1]
+      return [x,y];
+    }
+```
