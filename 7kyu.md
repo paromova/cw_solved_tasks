@@ -4,8 +4,14 @@
 function tailSwap(arr) {
       const arr2 = arr.map(el => el.split(":"));
       const arr3 = arr2[0].concat(arr2[1]);
-      const x = arr3[0] + ":" + arr3[3]
-      const y = arr3[2] + ":" + arr3[1]
+      const x = arr3[0] + ":" + arr3[3];
+      const y = arr3[2] + ":" + arr3[1];
       return [x,y];
     }
+```
+[String ends with?](https://www.codewars.com/users/Anastasiia%20Paromova/completed_solutions)
+```javascript
+function solution(str, ending){
+  return str.endsWith(ending);
+}
 ```
