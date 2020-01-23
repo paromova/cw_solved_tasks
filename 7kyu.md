@@ -15,3 +15,19 @@ function solution(str, ending){
   return str.endsWith(ending);
 }
 ```
+[Divide and Conquer](https://www.codewars.com/kata/57eaec5608fed543d6000021)
+```javascript
+function digits(num){
+let numArray = [];
+	let sum = 0;
+	let nums = num.toString().split('');
+	for (let i = 0; i < nums.length; i++) {
+    console.log(nums[i])
+    for ( let index = i+1; index < nums.length; index++) {
+      console.log(nums[index])
+      numArray.push(Number(nums[i]) + Number(nums[index]))
+    }
+	}
+return numArray
+}
+```
