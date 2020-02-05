@@ -34,4 +34,16 @@ function mouthSize(animal) {
   return animal.toLowerCase() == 'alligator' ? 'small' : 'wide';
 }
 ```
-[]
+[Do I get a bonus?](https://www.codewars.com/kata/56f6ad906b88de513f000d96)
+```javascript
+function bonusTime(salary, bonus) {
+if (bonus){
+return ("\u00A3" + (salary * 10));
+} else {
+return ("\u00A3" + salary);
+}
+}
+
+bonusTime(10000, true);
+bonusTime(1919, false);
+```
