@@ -22,12 +22,25 @@ let numArray = [];
 	let sum = 0;
 	let nums = num.toString().split('');
 	for (let i = 0; i < nums.length; i++) {
-    console.log(nums[i])
-    for ( let index = i+1; index < nums.length; index++) {
-      console.log(nums[index])
+    console.log(nums[i]);
+    for ( let index = i+1; index < nums.length; index++){
+      console.log(nums[index]);
       numArray.push(Number(nums[i]) + Number(nums[index]))
     }
 	}
 return numArray
+}
+```
+[Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)
+```javascript
+function maskify(cc) {
+let hidden = "";
+if (cc.length <=4){return cc;
+} else {
+for(let i =0; i<cc.length - 4;i++){
+hidden += cc[cc.length-5-i]="#";
+}
+}
+return hidden + cc.substring(cc.length -4);
 }
 ```
