@@ -47,3 +47,10 @@ return ("\u00A3" + salary);
 bonusTime(10000, true);
 bonusTime(1919, false);
 ```
+[5 without numbers !!](https://www.codewars.com/kata/59441520102eaa25260000bf)
+```javascript
+function unusualFive() {
+let array = ["", "", "", "", ""];
+return array.length;
+}
+```
