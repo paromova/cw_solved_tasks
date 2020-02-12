@@ -64,3 +64,16 @@ return "Keep at it until you get it";
 }
 }
 ```
+[Sort and Star](https://www.codewars.com/kata/57cfdf34902f6ba3d300001e)
+```javascript
+function twoSort(s) {
+const sortedArray = s.sort((a,b) => (a > b ? 1 : -1));
+let first = sortedArray[0];
+const newArray = [];
+for(let i = 0; i< first.length; i++){
+x = first[i] + "***";
+newArray.push(x);
+}
+return newArray.join("").slice(0,-3);
+}
+```
