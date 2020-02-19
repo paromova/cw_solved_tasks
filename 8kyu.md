@@ -88,3 +88,13 @@ function drawStairs(n) {
 }
 
 ```
+[Reversed Strings](https://www.codewars.com/kata/5168bb5dfe9a00b126000018)
+```javascript
+function solution(str){
+  let reverse = [];
+  for(let i = 0; i<str.length; i++){
+  reverse.unshift(str[i]);
+  }
+  return reverse.join("");
+}
+```
