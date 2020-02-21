@@ -44,3 +44,12 @@ hidden += cc[cc.length-5-i]="#";
 return hidden + cc.substring(cc.length -4);
 }
 ```
+[Breaking chocolate problem](https://www.codewars.com/kata/534ea96ebb17181947000ada)
+```javascript
+function breakChocolate(n,m) {
+  if(n<=0 || m<=0) {
+  return 0;
+  }
+  return n*m-1;
+}
+```
