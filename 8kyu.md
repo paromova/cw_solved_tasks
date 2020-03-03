@@ -98,3 +98,13 @@ function solution(str){
   return reverse.join("");
 }
 ```
+[I love you, a little , a lot, passionately ... not at all](https://www.codewars.com/kata/57f24e6a18e9fad8eb000296)
+```javascript
+function howMuchILoveYou(nbPetals) {
+  const array = [ "I love you", "a little", "a lot", "passionately", "madly", "not at all"]
+if (nbPetals % array.length == 0){
+return array[array.length - 1];
+}
+return array[(nbPetals % array.length) -1];
+}
+```
