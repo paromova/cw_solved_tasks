@@ -108,3 +108,9 @@ return array[array.length - 1];
 return array[(nbPetals % array.length) -1];
 }
 ```
+[For Twins: 2. Math operations](https://www.codewars.com/kata/59c287b16bddd291c700009a)
+```javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+ return  2 * radius  ** 2 * (bottleLength - rimLength );
+}
+```
