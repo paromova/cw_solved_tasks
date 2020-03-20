@@ -126,3 +126,9 @@ function problem(x){
   return (typeof(x) == "string" ? 'Error' : (x *50 + 6));
   }
 ```
+[Type of sum](https://www.codewars.com/kata/5a2e9ae2b6cfd7692a0000ba)
+```javascript
+function typeOfSum(a, b) {
+return typeof (a+b);
+}
+```
