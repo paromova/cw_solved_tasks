@@ -132,3 +132,9 @@ function typeOfSum(a, b) {
 return typeof (a+b);
 }
 ```
+[Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8)
+```javascript
+function numberToString(num) {
+ return String (num);
+}
+```
