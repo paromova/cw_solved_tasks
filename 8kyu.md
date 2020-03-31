@@ -138,3 +138,7 @@ function numberToString(num) {
  return String (num);
 }
 ```
+[Number toString](https://www.codewars.com/kata/53934feec44762736c00044b)
+```javascript
+var a = "123".toString();
+```
