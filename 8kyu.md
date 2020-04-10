@@ -154,3 +154,9 @@ function sumStr(a,b) {
   return (Number(a)+ Number(b)) + "";
 }
 ```
+[Convert a String to a Number!](https://www.codewars.com/kata/544675c6f971f7399a000e79)
+```javascript
+var stringToNumber = function(str){
+  return +str;
+}
+```
