@@ -166,3 +166,9 @@ function twoDecimalPlaces(n) {
 return +n.toFixed(2);
 }
 ```
+[Count Odd Numbers below n](https://www.codewars.com/kata/59342039eb450e39970000a6)
+```javascript
+function oddCount(n){
+  return(n%2 === 0 ? n/2 :(n-1)/2);
+}
+```
