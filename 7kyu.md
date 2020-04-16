@@ -59,3 +59,9 @@ function angle(n) {
 return 180 * (n - 2);
 }
 ```
+[Discover The Original Price](https://www.codewars.com/kata/552564a82142d701f5001228)
+```javascript
+function discoverOriginalPrice(discountedPrice, salePercentage){
+return Math.floor((discountedPrice / (1 -salePercentage/ 100)) * 100)/100;
+}
+```
