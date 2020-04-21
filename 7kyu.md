@@ -65,3 +65,17 @@ function discoverOriginalPrice(discountedPrice, salePercentage){
 return Math.floor((discountedPrice / (1 -salePercentage/ 100)) * 100)/100;
 }
 ```
+[Return the closest number multiple of 10](https://www.codewars.com/kata/58249d08b81f70a2fc0001a4)
+```javascript
+const closestMultiple10 = num => {
+  let c = num/10;
+  let d = Math.round(c);
+  return d*10;
+};
+```
+[Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097)
+```javascript
+function century(year) {
+  return (year % 100 === 0) ? year/100 : Math.ceil(year/100);
+}
+```
