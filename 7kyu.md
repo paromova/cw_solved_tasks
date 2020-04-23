@@ -79,3 +79,10 @@ function century(year) {
   return (year % 100 === 0) ? year/100 : Math.ceil(year/100);
 }
 ```
+[How many times should I go?](https://www.codewars.com/kata/57efcb78e77282f4790003d8)
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+ let time = annualPrice/ individualPrice;
+ return Math.ceil(time);
+}
+```
