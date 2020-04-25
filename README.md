@@ -10,3 +10,9 @@ function find_average(array) {
   return sum /  array.length;
 }
 ```
+[Area of a Square](https://www.codewars.com/kata/5748838ce2fab90b86001b1a)
+```javascript
+function squareArea(A){
+  return Math.round((2*A/Math.PI)**2*100)/100;
+}
+```
