@@ -172,3 +172,10 @@ function oddCount(n){
   return(n%2 === 0 ? n/2 :(n-1)/2);
 }
 ```
+[Area of a Square](https://www.codewars.com/kata/5748838ce2fab90b86001b1a)
+```javascript
+function squareArea(A){
+  return Math.round((2*A/Math.PI)**2*100)/100;
+}
+
+```
