@@ -185,3 +185,10 @@ function litres(time) {
   return Math.floor(time * 0.5);
 }
 ```
+[Chuck Norris VII - True or False? (Beginner)](https://www.codewars.com/kata/570669d8cb7293a2d1001473)
+```javascript
+function ifChuckSaysSo(){
+return 0!=0;
+}
+
+```
