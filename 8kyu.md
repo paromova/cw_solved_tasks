@@ -198,3 +198,9 @@ function add(a, b){
   return a ==b ? true : false;
 }
 ```
+[Is he gonna survive?](https://www.codewars.com/kata/59ca8246d751df55cc00014c)
+```javascript
+function hero(bullets, dragons){
+return ((bullets / 2) >= dragons ? true : false); 
+}
+```
