@@ -219,3 +219,17 @@ function chromosomeCheck(sperm) {
   return "Congratulations! You're going to have a son.";}
 }
 ```
+[What's the real floor?](https://www.codewars.com/kata/574b3b1599d8f897470018f6)
+```javascript
+function getRealFloor(n) {
+if (n >= 1 && n < 13) {
+return (n-1);
+} else if (n>=13){
+return (n-2);
+} else if (n ===0){
+return n;
+} else if (n<0){
+return n;
+}
+}
+```
