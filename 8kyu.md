@@ -219,7 +219,7 @@ function chromosomeCheck(sperm) {
   return "Congratulations! You're going to have a son.";}
 }
 ```
-[What's the real floor?](https://www.codewars.com/kata/574b3b1599d8f897470018f6)
+[What's the real floor?](https://www.codewars.com/kata/574b3b1599d8f897470018f6 )
 ```javascript
 function getRealFloor(n) {
 if (n >= 1 && n < 13) {
@@ -231,5 +231,21 @@ return n;
 } else if (n<0){
 return n;
 }
+}
+```
+[Calculate BMI](https://www.codewars.com/kata/57a429e253ba3381850000fb)
+```javascript
+function bmi(weight, height) {
+let bmi = weight/height**2;
+  if (bmi <= 18.5){
+  return "Underweight";
+  } else if(bmi > 18.5 && bmi <= 25.0){
+  return "Normal";
+  } else if (bmi > 25.0 && bmi <=30.0){
+  return "Overweight";
+  } else if (bmi > 30) {
+  return "Obese";
+  }
+  
 }
 ```
