@@ -86,3 +86,16 @@ function howManyTimes(annualPrice, individualPrice) {
  return Math.ceil(time);
 }
 ```
+[Calculate Two People's Individual Ages](https://www.codewars.com/kata/58e0bd6a79716b7fcf0013b1)
+```javascript
+function getAges(sum,difference){
+let age1 = sum - ((sum - difference)/2);
+let age2 = (sum - difference)/2;
+if (age1<0 || age2 < 0 || difference < 0){
+return null;
+} else if (age2>=age1){
+return [age2, age1];
+} else {return [age1, age2];
+}
+}
+```
