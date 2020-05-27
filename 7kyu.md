@@ -112,3 +112,9 @@ return [age2, age1];
 }
 }
 ```
+[Is this a triangle?](https://www.codewars.com/kata/56606694ec01347ce800001b)
+```javascript
+function isTriangle(a,b,c){
+   return a < b + c && b < a + c && c < a + b;
+}
+```
