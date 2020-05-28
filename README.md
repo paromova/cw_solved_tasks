@@ -22,3 +22,16 @@ function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }
 ```
+[Power of two](https://www.codewars.com/kata/534d0a229345375d520006a0)
+```javascript
+function isPowerOfTwo(n){
+if (n === 1) return true;
+while (n > 1){
+n = n/2
+} 
+if (n ===1)
+return true;
+else 
+return false
+}
+```
