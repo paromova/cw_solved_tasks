@@ -118,3 +118,14 @@ function isTriangle(a,b,c){
    return a < b + c && b < a + c && c < a + b;
 }
 ```
+[Filter the number](https://www.codewars.com/kata/55b051fac50a3292a9000025)
+```javascript
+var FilterString = function(value) {
+  let str = "";
+  for (let i = 0; i < value.length; i++){
+  if (isNaN(value[i]) === false)
+  str += value [i]
+}
+return +str;
+}
+```
