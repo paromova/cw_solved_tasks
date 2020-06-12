@@ -129,3 +129,13 @@ var FilterString = function(value) {
 return +str;
 }
 ```
+[Beginner Series #3 Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053)
+```javascript
+function getSum( a,b ){
+let sum = 0;
+for (let i = Math.min(a,b); i <= Math.max(a,b); i++){
+sum = sum + i;
+}
+return sum;
+}
+```
