@@ -306,3 +306,17 @@ function finalGrade (exam, projects) {
   else return 0;
 }
 ```
+[L1: Set Alarm](https://www.codewars.com/kata/568dcc3c7f12767a62000038)
+```javascript
+function setAlarm(employed, vacation){
+if (employed == true && vacation == true){
+return false;
+} else if (employed == false && vacation == true){
+return false;
+} else if (employed == true && vacation == false){
+return true;
+} else if (employed == false && vacation == false){
+return false;
+}
+}
+```
